@@ -7,9 +7,9 @@
 ## Group Members
 | Member | Student ID | Branch | Models |
 |--------|-----------|--------|--------|
-| Member 1 | MEMBER1_ID | feature/MEMBER1_ID-model | Logistic Regression + CNN |
-| Member 2 | MEMBER2_ID | feature/MEMBER2_ID-model | Random Forest + LSTM |
-| Member 3 | MEMBER3_ID | feature/MEMBER3_ID-model | XGBoost + GRU |
+| Dileepa Alwis | CIT-24-01-0325 | feature/MEMBER1_ID-model | Logistic Regression + CNN |
+| Kalindu Himsara | CIT-24-01-0597 | feature/MEMBER2_ID-model | Random Forest + LSTM |
+| Nisal Chathushka | CIT-24-01-0117 | feature/MEMBER3_ID-model | XGBoost + GRU |
 
 ---
 
@@ -74,9 +74,9 @@ python app.py
 ## Model Summary
 | Member | ML Model | DL Model | Feature Engineering |
 |--------|----------|----------|-------------------|
-| Member 1 | Logistic Regression | CNN | TF-IDF |
-| Member 2 | Random Forest | LSTM | Bag of Words |
-| Member 3 | XGBoost | GRU | TF-IDF + Bigrams |
+| Dileepa Alwis | Logistic Regression | CNN | TF-IDF |
+| Kalindu Himsara | Random Forest | LSTM | Bag of Words |
+| Nisal Chathushka | XGBoost | GRU | TF-IDF + Bigrams |
 
 ---
 
