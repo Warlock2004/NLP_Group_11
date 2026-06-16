@@ -8,7 +8,7 @@
 | Member | Student ID | Branch | Models |
 |--------|-----------|--------|--------|
 | Dileepa Alwis | CIT-24-01-0325 | feature/CIT-24-01-0325-model | Logistic Regression + CNN |
-| Kalindu Himsara | CIT-24-01-0597 | feature/CIT-01-0597-model | Random Forest + LSTM |
+| Kalindu Himsara | CIT-24-01-0597 | feature/CIT-24-01-0597-model | Random Forest + LSTM |
 | Nisal Chathushka | CIT-24-01-0117 | feature/CIT-24-01-0117-model | XGBoost + GRU |
 
 ---
