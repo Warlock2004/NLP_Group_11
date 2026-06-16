@@ -15,26 +15,40 @@
 
 ## Problem Statement
 ToxiGuard is an NLP-based system that detects hate speech and toxic comments
-in online text. It classifies input into three categories:
-- 0 — Hate Speech
-- 1 — Offensive Language
-- 2 — Neither
+in online text. It classifies input into two categories:
+- **0** — Not Toxic (Normal comment)
+- **1** — Toxic (Hate Speech / Offensive Language)
 
 ---
 
 ## Dataset
-- **Name:** Hate Speech and Offensive Language Dataset
-- **Source:** HuggingFace — `tdavidson/hate_speech_offensive`
-- **Size:** 24,783 tweets
-- **Classes:** Hate Speech / Offensive Language / Neither
+
+| Field | Details |
+|-------|---------|
+| Name | Toxic Comment Classification |
+| Source | Kaggle — `akashsuper2000/toxic-comment-classification` |
+| Original Size | 119,518 comments |
+| Balanced Size | 80,000 comments |
+| Classes | 0 — Not Toxic / 1 — Toxic |
 
 ### To download the dataset:
-```python
-from datasets import load_dataset
-dataset = load_dataset("tdavidson/hate_speech_offensive")
-df = dataset['train'].to_pandas()
-df.to_csv("data/raw/hate_speech_offensive.csv", index=False)
+```bash
+# Install Kaggle API first
+pip install kaggle
+
+# Download dataset
+kaggle datasets download -d akashsuper2000/toxic-comment-classification
 ```
+
+```python
+import pandas as pd
+
+df = pd.read_csv("data/raw/train.csv")
+print(df.shape)       # (119518, 8)
+print(df.head())
+df.to_csv("data/raw/toxic_comments.csv", index=False)
+```
+
 
 ---
 
